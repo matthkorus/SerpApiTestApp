@@ -11,6 +11,7 @@
 		83BCAD262B53021C006B1B37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCAD252B53021C006B1B37 /* ContentView.swift */; };
 		83BCAD282B53021E006B1B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BCAD272B53021E006B1B37 /* Assets.xcassets */; };
 		83BCAD2B2B53021E006B1B37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BCAD2A2B53021E006B1B37 /* Preview Assets.xcassets */; };
+		83BCAD352B530496006B1B37 /* weddingflightqueries.py in Resources */ = {isa = PBXBuildFile; fileRef = 83BCAD342B530496006B1B37 /* weddingflightqueries.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		83BCAD272B53021E006B1B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83BCAD2A2B53021E006B1B37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83BCAD2C2B53021E006B1B37 /* SerpApiTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SerpApiTestApp.entitlements; sourceTree = "<group>"; };
+		83BCAD342B530496006B1B37 /* weddingflightqueries.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = weddingflightqueries.py; path = ../../../../../Downloads/weddingflightqueries.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			children = (
 				83BCAD232B53021C006B1B37 /* SerpApiTestAppApp.swift */,
 				83BCAD252B53021C006B1B37 /* ContentView.swift */,
-				83BCAD272B53021E006B1B37 /* Assets.xcassets */,
 				83BCAD2C2B53021E006B1B37 /* SerpApiTestApp.entitlements */,
+				83BCAD342B530496006B1B37 /* weddingflightqueries.py */,
+				83BCAD272B53021E006B1B37 /* Assets.xcassets */,
 				83BCAD292B53021E006B1B37 /* Preview Content */,
 			);
 			path = SerpApiTestApp;
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BCAD352B530496006B1B37 /* weddingflightqueries.py in Resources */,
 				83BCAD2B2B53021E006B1B37 /* Preview Assets.xcassets in Resources */,
 				83BCAD282B53021E006B1B37 /* Assets.xcassets in Resources */,
 			);
