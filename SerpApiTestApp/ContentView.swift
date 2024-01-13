@@ -20,11 +20,12 @@ struct ContentView: View {
 						y: .value("Price", query.cheapestPrice)
 					)
 					.foregroundStyle(by: .value("Path", query.cheapestFlight?.flightLabel ?? "Unkown"))
+					.symbol(by: .value("Path", query.cheapestFlight?.flightLabel ?? "Unkown"))
 				}
 			}
-			.chartLegend(position:.trailing)
 			.chartXAxisLabel("Date")
 			.chartYAxisLabel("Price")
+			.chartLegend(position:.trailing)
 		}
         .padding()
     }
