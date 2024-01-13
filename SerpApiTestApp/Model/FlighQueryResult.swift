@@ -11,6 +11,7 @@
 
 import Foundation
 
+
 // MARK: - FlightQueryResult
 struct FlightQueryResult: Codable {
 	let searchMetadata: SearchMetadata?
