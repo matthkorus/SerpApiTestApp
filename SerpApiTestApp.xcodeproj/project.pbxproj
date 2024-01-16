@@ -19,6 +19,9 @@
 		83BCAD7A2B530D44006B1B37 /* FlighQueryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCAD792B530D44006B1B37 /* FlighQueryResult.swift */; };
 		83BCAD7C2B530E0F006B1B37 /* FlightStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCAD7B2B530E0F006B1B37 /* FlightStore.swift */; };
 		83BCAD7F2B531C4F006B1B37 /* ResultContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCAD7E2B531C4F006B1B37 /* ResultContainer.swift */; };
+		83BCAD842B54529E006B1B37 /* FlightChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCAD832B54529E006B1B37 /* FlightChart.swift */; };
+		83BCAD862B5452CD006B1B37 /* ChartHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCAD852B5452CD006B1B37 /* ChartHeader.swift */; };
+		83BCAD882B5452E4006B1B37 /* FlightAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCAD872B5452E4006B1B37 /* FlightAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		83BCAD792B530D44006B1B37 /* FlighQueryResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlighQueryResult.swift; sourceTree = "<group>"; };
 		83BCAD7B2B530E0F006B1B37 /* FlightStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStore.swift; sourceTree = "<group>"; };
 		83BCAD7E2B531C4F006B1B37 /* ResultContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultContainer.swift; sourceTree = "<group>"; };
+		83BCAD832B54529E006B1B37 /* FlightChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightChart.swift; sourceTree = "<group>"; };
+		83BCAD852B5452CD006B1B37 /* ChartHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartHeader.swift; sourceTree = "<group>"; };
+		83BCAD872B5452E4006B1B37 /* FlightAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 			children = (
 				83BCAD232B53021C006B1B37 /* SerpApiTestAppApp.swift */,
 				83BCAD252B53021C006B1B37 /* ContentView.swift */,
+				83BCAD822B545257006B1B37 /* ChartScreen */,
 				83BCAD7B2B530E0F006B1B37 /* FlightStore.swift */,
 				83BCAD7D2B531C40006B1B37 /* Model */,
 				83BCAD2C2B53021E006B1B37 /* SerpApiTestApp.entitlements */,
@@ -96,6 +103,16 @@
 				83BCAD7E2B531C4F006B1B37 /* ResultContainer.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		83BCAD822B545257006B1B37 /* ChartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				83BCAD832B54529E006B1B37 /* FlightChart.swift */,
+				83BCAD852B5452CD006B1B37 /* ChartHeader.swift */,
+				83BCAD872B5452E4006B1B37 /* FlightAnnotation.swift */,
+			);
+			path = ChartScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +197,11 @@
 			files = (
 				83BCAD7A2B530D44006B1B37 /* FlighQueryResult.swift in Sources */,
 				83BCAD262B53021C006B1B37 /* ContentView.swift in Sources */,
+				83BCAD882B5452E4006B1B37 /* FlightAnnotation.swift in Sources */,
 				83BCAD7F2B531C4F006B1B37 /* ResultContainer.swift in Sources */,
+				83BCAD862B5452CD006B1B37 /* ChartHeader.swift in Sources */,
 				83BCAD242B53021C006B1B37 /* SerpApiTestAppApp.swift in Sources */,
+				83BCAD842B54529E006B1B37 /* FlightChart.swift in Sources */,
 				83BCAD7C2B530E0F006B1B37 /* FlightStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
