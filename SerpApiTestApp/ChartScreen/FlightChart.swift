@@ -18,7 +18,7 @@ struct FlightChart: View {
 				let label = query.cheapestFlight?.flightLabel ?? "Unkown"
 				LineMark(
 					x: .value("Date", query.creationDate),
-					y: .value("Price", query.cheapestPrice)
+					y: .value("Price", query.cheapestPrice/2)
 				)
 				.foregroundStyle(by: .value("Path", label ))
 				.symbol(by: .value("Path", label))
